@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.902
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.ServiceLayer", "Northwind.ServiceLayer\Northwind.ServiceLayer.csproj", "{042FE541-E50D-495C-BC1F-128DB5E4E871}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.Entities", "Northwind.Entities\Northwind.Entities.csproj", "{27869B8A-19C1-465A-9332-0739C2A0BC91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.Business", "Northwind.Business\Northwind.Business.csproj", "{58CFABE0-1166-45F6-8715-92A46C471A79}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Northwind.ServiceWeb", "Northwind.ServiceWeb\", "{384C4CDF-56DF-447B-8F41-353726234B60}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		ProjectReferences = "{042fe541-e50d-495c-bc1f-128db5e4e871}|Northwind.ServiceLayer.dll;{58CFABE0-1166-45F6-8715-92A46C471A79}|Northwind.Business.dll;{27869B8A-19C1-465A-9332-0739C2A0BC91}|Northwind.Entities.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_61982"
+		Debug.AspNetCompiler.PhysicalPath = "Northwind.ServiceWeb\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_61982\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_61982"
+		Release.AspNetCompiler.PhysicalPath = "Northwind.ServiceWeb\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_61982\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "61982"
+		SlnRelativePath = "Northwind.ServiceWeb\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.ClientApp", "Northwind.ClientApp\Northwind.ClientApp.csproj", "{86F37EAD-9746-4154-9E9C-16FE28368767}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{042FE541-E50D-495C-BC1F-128DB5E4E871}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{042FE541-E50D-495C-BC1F-128DB5E4E871}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{042FE541-E50D-495C-BC1F-128DB5E4E871}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{042FE541-E50D-495C-BC1F-128DB5E4E871}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27869B8A-19C1-465A-9332-0739C2A0BC91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27869B8A-19C1-465A-9332-0739C2A0BC91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27869B8A-19C1-465A-9332-0739C2A0BC91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27869B8A-19C1-465A-9332-0739C2A0BC91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58CFABE0-1166-45F6-8715-92A46C471A79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58CFABE0-1166-45F6-8715-92A46C471A79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58CFABE0-1166-45F6-8715-92A46C471A79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58CFABE0-1166-45F6-8715-92A46C471A79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{384C4CDF-56DF-447B-8F41-353726234B60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{384C4CDF-56DF-447B-8F41-353726234B60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{384C4CDF-56DF-447B-8F41-353726234B60}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{384C4CDF-56DF-447B-8F41-353726234B60}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{86F37EAD-9746-4154-9E9C-16FE28368767}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86F37EAD-9746-4154-9E9C-16FE28368767}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86F37EAD-9746-4154-9E9C-16FE28368767}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86F37EAD-9746-4154-9E9C-16FE28368767}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8AE3DA9F-99B3-4C25-BF8F-023D0D75301C}
+	EndGlobalSection
+EndGlobal
